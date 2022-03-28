@@ -1,0 +1,44 @@
+# ninja log v5
+1	13	1648482204114589294	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+17	1006	1648482017549973030	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
+0	69	1648482228414725348	build.ninja	418b408f1b74a94a
+148	1165	1648411785674204670	CMakeFiles/Proyecto_I_UI.dir/play_window.cpp.o	d04f7637c09104a8
+1171	1480	1648482205577930998	Proyecto_I_UI	a5d2d13aa119f58b
+1	13	1648482204114589294	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	13	1648482204114589294	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+14	1171	1648482205271262579	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1	13	1648482204114589294	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+13	835	1648482194104531401	CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o	9b87ce86c9e17de9
+147	375	1648411784884205971	CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o	50b8e9b13ee25a2
+14	1148	1648482205247929112	CMakeFiles/Proyecto_I_UI.dir/main.cpp.o	be5c75da7e0f9e91
+0	70	1648482228414725348	build.ninja	418b408f1b74a94a
+2	19	1648482228441392161	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+2	19	1648482228441392161	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+2	19	1648482228441392161	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+2	19	1648482228441392161	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+19	965	1648482229388064002	CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o	9b87ce86c9e17de9
+19	1092	1648482229514731360	CMakeFiles/Proyecto_I_UI.dir/main.cpp.o	be5c75da7e0f9e91
+20	1233	1648482229658065476	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
+20	1235	1648482229658065476	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1236	1590	1648482230011400739	Proyecto_I_UI	343721517e65697d
+1	13	1648482345841968272	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	13	1648482345841968272	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+1	13	1648482345841968272	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	13	1648482345841968272	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+15	1228	1648482347055306921	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
+15	1294	1648482347121973879	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1294	1619	1648482347445308625	Proyecto_I_UI	343721517e65697d
+1	14	1648482440989017125	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	14	1648482440989017125	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+1	14	1648482440989017125	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	14	1648482440989017125	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+15	956	1648482441929020573	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+15	1032	1648482442005687520	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
+1032	1328	1648482442299021928	Proyecto_I_UI	343721517e65697d
+2	16	1648482488842518529	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+2	16	1648482488842518529	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+2	16	1648482488842518529	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+2	16	1648482488842518529	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+17	1094	1648482489919188808	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+17	1154	1648482489979189009	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
+1154	1459	1648482490282523358	Proyecto_I_UI	343721517e65697d
