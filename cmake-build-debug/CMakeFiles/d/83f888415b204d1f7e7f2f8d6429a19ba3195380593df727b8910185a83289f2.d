@@ -3,8 +3,8 @@ Proyecto_I_UI_autogen/timestamp: \
   CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
   CMakeFiles/3.21.1/CMakeSystem.cmake \
   Proyecto_I_UI_autogen/moc_predefs.h \
-  ../form.cpp \
-  ../form.h \
+  ../dialog.cpp \
+  ../dialog.h \
   ../main.cpp \
   ../main2.cpp \
   ../mainwindow.cpp \
@@ -310,8 +310,9 @@ Proyecto_I_UI_autogen/timestamp: \
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
+  /usr/include/qt/QtWidgets/QDialog \
   /usr/include/qt/QtWidgets/QMainWindow \
-  /usr/include/qt/QtWidgets/QWidget \
+  /usr/include/qt/QtWidgets/qdialog.h \
   /usr/include/qt/QtWidgets/qmainwindow.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/qtabwidget.h \
@@ -406,6 +407,6 @@ Proyecto_I_UI_autogen/timestamp: \
   /var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake \
   /var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake \
   /var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake \
-  ../form.ui \
+  ../dialog.ui \
   ../mainwindow.ui \
   /var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake

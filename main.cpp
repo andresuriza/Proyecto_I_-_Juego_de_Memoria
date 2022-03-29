@@ -5,7 +5,9 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Form f;
-    f.show();
+    MainWindow menu1;
+    MainWindow menu2;
+    menu1.show();
+    //menu2.show();
     return a.exec();
 }

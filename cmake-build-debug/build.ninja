@@ -104,9 +104,9 @@ build CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debu
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
   OBJECT_FILE_DIR = CMakeFiles/Proyecto_I_UI.dir
 
-build CMakeFiles/Proyecto_I_UI.dir/form.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/form.cpp || cmake_object_order_depends_target_Proyecto_I_UI
+build CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/dialog.cpp || cmake_object_order_depends_target_Proyecto_I_UI
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/Proyecto_I_UI.dir/form.cpp.o.d
+  DEP_FILE = CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o.d
   FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/include" -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
@@ -120,7 +120,7 @@ build CMakeFiles/Proyecto_I_UI.dir/form.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug
 #############################################
 # Link the executable Proyecto_I_UI
 
-build Proyecto_I_UI: CXX_EXECUTABLE_LINKER__Proyecto_I_UI_Debug CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o CMakeFiles/Proyecto_I_UI.dir/main.cpp.o CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o CMakeFiles/Proyecto_I_UI.dir/form.cpp.o | /usr/lib/libQt5Widgets.so.5.15.3 /usr/lib/libQt5Gui.so.5.15.3 /usr/lib/libQt5Core.so.5.15.3 || Proyecto_I_UI_autogen Proyecto_I_UI_autogen_timestamp_deps
+build Proyecto_I_UI: CXX_EXECUTABLE_LINKER__Proyecto_I_UI_Debug CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o CMakeFiles/Proyecto_I_UI.dir/main.cpp.o CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o | /usr/lib/libQt5Widgets.so.5.15.3 /usr/lib/libQt5Gui.so.5.15.3 /usr/lib/libQt5Core.so.5.15.3 || Proyecto_I_UI_autogen Proyecto_I_UI_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/libQt5Widgets.so.5.15.3  /usr/lib/libQt5Gui.so.5.15.3  /usr/lib/libQt5Core.so.5.15.3
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
@@ -139,7 +139,7 @@ build Proyecto_I_UI_autogen_timestamp_deps: phony CMakeFiles/Proyecto_I_UI_autog
 #############################################
 # Utility command for Proyecto_I_UI_autogen
 
-build Proyecto_I_UI_autogen: phony CMakeFiles/Proyecto_I_UI_autogen Proyecto_I_UI_autogen/include/ui_mainwindow.h Proyecto_I_UI_autogen/include/ui_form.h Proyecto_I_UI_autogen/timestamp Proyecto_I_UI_autogen/mocs_compilation.cpp Proyecto_I_UI_autogen_timestamp_deps
+build Proyecto_I_UI_autogen: phony CMakeFiles/Proyecto_I_UI_autogen Proyecto_I_UI_autogen/include/ui_mainwindow.h Proyecto_I_UI_autogen/include/ui_dialog.h Proyecto_I_UI_autogen/timestamp Proyecto_I_UI_autogen/mocs_compilation.cpp Proyecto_I_UI_autogen_timestamp_deps
 
 
 #############################################
@@ -161,7 +161,7 @@ build CMakeFiles/Proyecto_I_UI_autogen_timestamp_deps | ${cmake_ninja_workdir}CM
 #############################################
 # Phony custom command for CMakeFiles/Proyecto_I_UI_autogen
 
-build CMakeFiles/Proyecto_I_UI_autogen Proyecto_I_UI_autogen/include/ui_mainwindow.h Proyecto_I_UI_autogen/include/ui_form.h | ${cmake_ninja_workdir}CMakeFiles/Proyecto_I_UI_autogen ${cmake_ninja_workdir}Proyecto_I_UI_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}Proyecto_I_UI_autogen/include/ui_form.h: phony Proyecto_I_UI_autogen/timestamp || Proyecto_I_UI_autogen_timestamp_deps
+build CMakeFiles/Proyecto_I_UI_autogen Proyecto_I_UI_autogen/include/ui_mainwindow.h Proyecto_I_UI_autogen/include/ui_dialog.h | ${cmake_ninja_workdir}CMakeFiles/Proyecto_I_UI_autogen ${cmake_ninja_workdir}Proyecto_I_UI_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}Proyecto_I_UI_autogen/include/ui_dialog.h: phony Proyecto_I_UI_autogen/timestamp || Proyecto_I_UI_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

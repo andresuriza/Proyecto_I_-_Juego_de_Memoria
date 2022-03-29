@@ -91,9 +91,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/andres/Documents/III SEMESTRE/Proyecto_I/form.h",
+			"/home/andres/Documents/III SEMESTRE/Proyecto_I/dialog.h",
 			"MU",
-			"EWIEGA46WW/moc_form.cpp",
+			"EWIEGA46WW/moc_dialog.cpp",
 			null
 		],
 		[
@@ -155,7 +155,11 @@
 	"SETTINGS_FILE" : "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/Proyecto_I_UI_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/andres/Documents/III SEMESTRE/Proyecto_I/form.cpp", "MU", null ],
+		[
+			"/home/andres/Documents/III SEMESTRE/Proyecto_I/dialog.cpp",
+			"MU",
+			null
+		],
 		[ "/home/andres/Documents/III SEMESTRE/Proyecto_I/main.cpp", "MU", null ],
 		[
 			"/home/andres/Documents/III SEMESTRE/Proyecto_I/main2.cpp",

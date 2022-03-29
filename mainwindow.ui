@@ -17,21 +17,31 @@
    <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>430</y>
+      <x>300</x>
+      <y>530</y>
       <width>481</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>780</x>
-      <y>430</y>
+      <x>790</x>
+      <y>530</y>
       <width>101</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Begin</string>
@@ -40,11 +50,16 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>440</y>
-      <width>111</width>
-      <height>17</height>
+      <x>130</x>
+      <y>540</y>
+      <width>161</width>
+      <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Enter your name:</string>

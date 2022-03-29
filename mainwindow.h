@@ -13,16 +13,13 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    /*
-    MainWindow(QString title) {
-        titlebar = title;
-    }
-    */
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_pushButton_pressed();
+
 private:
-    //QString titlebar;
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

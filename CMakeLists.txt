@@ -20,16 +20,16 @@ set(PROJECT_SOURCES
         mainwindow.h
         mainwindow.ui
         main2.cpp
-        form.cpp
-        form.h
-        form.ui
+        dialog.cpp
+        dialog.h
+        dialog.ui
         )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Proyecto_I_UI
         MANUAL_FINALIZATION
-        ${PROJECT_SOURCES}
-    )
+        ${PROJECT_SOURCES})
+
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Proyecto_I APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
 #                 ${CMAKE_CURRENT_SOURCE_DIR}/android)

@@ -1,44 +1,73 @@
 # ninja log v5
-1	13	1648482204114589294	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-17	1006	1648482017549973030	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
-0	69	1648482228414725348	build.ninja	418b408f1b74a94a
+1	14	1648567268237073993	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+17	1097	1648567108757334308	CMakeFiles/Proyecto_I_UI.dir/test.cpp.o	affd19b0323a7ca4
+15	1095	1648562877663393865	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
+0	70	1648567378080204229	build.ninja	418b408f1b74a94a
 148	1165	1648411785674204670	CMakeFiles/Proyecto_I_UI.dir/play_window.cpp.o	d04f7637c09104a8
-1171	1480	1648482205577930998	Proyecto_I_UI	a5d2d13aa119f58b
-1	13	1648482204114589294	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-1	13	1648482204114589294	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-14	1171	1648482205271262579	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
-1	13	1648482204114589294	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-13	835	1648482194104531401	CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o	9b87ce86c9e17de9
-147	375	1648411784884205971	CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o	50b8e9b13ee25a2
-14	1148	1648482205247929112	CMakeFiles/Proyecto_I_UI.dir/main.cpp.o	be5c75da7e0f9e91
-0	70	1648482228414725348	build.ninja	418b408f1b74a94a
-2	19	1648482228441392161	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-2	19	1648482228441392161	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-2	19	1648482228441392161	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-2	19	1648482228441392161	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-19	965	1648482229388064002	CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o	9b87ce86c9e17de9
-19	1092	1648482229514731360	CMakeFiles/Proyecto_I_UI.dir/main.cpp.o	be5c75da7e0f9e91
-20	1233	1648482229658065476	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
-20	1235	1648482229658065476	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
-1236	1590	1648482230011400739	Proyecto_I_UI	343721517e65697d
-1	13	1648482345841968272	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-1	13	1648482345841968272	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-1	13	1648482345841968272	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-1	13	1648482345841968272	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-15	1228	1648482347055306921	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
-15	1294	1648482347121973879	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
-1294	1619	1648482347445308625	Proyecto_I_UI	343721517e65697d
-1	14	1648482440989017125	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-1	14	1648482440989017125	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-1	14	1648482440989017125	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-1	14	1648482440989017125	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-15	956	1648482441929020573	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
-15	1032	1648482442005687520	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
-1032	1328	1648482442299021928	Proyecto_I_UI	343721517e65697d
-2	16	1648482488842518529	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-2	16	1648482488842518529	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-2	16	1648482488842518529	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
-2	16	1648482488842518529	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
-17	1094	1648482489919188808	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
-17	1154	1648482489979189009	CMakeFiles/Proyecto_I_UI.dir/form.cpp.o	812a07f414059d71
-1154	1459	1648482490282523358	Proyecto_I_UI	343721517e65697d
+1242	1639	1648566566641012631	Proyecto_I_UI	9f17e8a8b7c57665
+1	14	1648567268237073993	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	14	1648567268237073993	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+15	1244	1648567269463738488	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1	14	1648567268237073993	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+166	1143	1648566505444299730	CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o	9b87ce86c9e17de9
+15	1141	1648567269360405337	CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o	ec250145d373c591
+17	262	1648567107924002208	CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o	50b8e9b13ee25a2
+16	1166	1648567108827334205	CMakeFiles/Proyecto_I_UI.dir/main.cpp.o	be5c75da7e0f9e91
+1	13	1648567379690201131	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	13	1648567379690201131	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+1	13	1648567379690201131	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	13	1648567379690201131	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+14	1021	1648567380696865860	CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o	ec250145d373c591
+14	1097	1648567380773532379	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1097	1430	1648567381103531743	Proyecto_I_UI	9f17e8a8b7c57665
+1	13	1648567456503356772	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	13	1648567456503356772	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+1	13	1648567456503356772	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	13	1648567456503356772	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+14	1091	1648567457580003797	CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o	ec250145d373c591
+14	1200	1648567457686668519	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1200	1529	1648567458013329231	Proyecto_I_UI	9f17e8a8b7c57665
+1	15	1648567470546436244	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	15	1648567470546436244	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+1	15	1648567470546436244	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	15	1648567470546436244	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+15	1034	1648567471566418000	CMakeFiles/Proyecto_I_UI.dir/main.cpp.o	be5c75da7e0f9e91
+16	1071	1648567471599750737	CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o	ec250145d373c591
+16	1186	1648567471716415318	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1186	1546	1648567472073075611	Proyecto_I_UI	9f17e8a8b7c57665
+1	14	1648567501645891499	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	14	1648567501645891499	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+1	14	1648567501645891499	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	14	1648567501645891499	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+15	1107	1648567502735872829	CMakeFiles/Proyecto_I_UI.dir/main.cpp.o	be5c75da7e0f9e91
+15	1120	1648567502752539210	CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o	ec250145d373c591
+15	1221	1648567502852537498	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1221	1579	1648567503209198064	Proyecto_I_UI	9f17e8a8b7c57665
+1	12	1648567516398974501	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	12	1648567516398974501	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+1	12	1648567516398974501	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	12	1648567516398974501	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+14	994	1648567517382291329	CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o	ec250145d373c591
+14	1253	1648567517638953691	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1253	1580	1648567517962281601	Proyecto_I_UI	9f17e8a8b7c57665
+2	12	1648567532012048352	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+2	12	1648567532012048352	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+2	12	1648567532012048352	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+2	12	1648567532012048352	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+13	1065	1648567533065364378	CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o	ec250145d373c591
+13	1350	1648567533348693062	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1351	1709	1648567533705353876	Proyecto_I_UI	9f17e8a8b7c57665
+2	15	1648567593134416638	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+2	15	1648567593134416638	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+2	15	1648567593134416638	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+2	15	1648567593134416638	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+16	1046	1648567594164401035	CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o	ec250145d373c591
+16	1181	1648567594301065633	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1181	1525	1648567594641060488	Proyecto_I_UI	9f17e8a8b7c57665
+1	15	1648567604380914055	Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	15	1648567604380914055	Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+1	15	1648567604380914055	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp	94a925b4350f0ef3
+1	15	1648567604380914055	/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp	94a925b4350f0ef3
+17	1210	1648567605574229575	CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o	ec250145d373c591
+16	1274	1648567605640895247	CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o	4b25cbe420120c88
+1274	1619	1648567605980890175	Proyecto_I_UI	9f17e8a8b7c57665
