@@ -1,13 +1,16 @@
 #include "mainwindow.h"
-#include "form.h"
 #include <QApplication>
+#include <QBuffer>
+#include "main2.cpp"
+#include <iostream>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
+    QApplication app(argc, argv);
     MainWindow menu1;
-    MainWindow menu2;
+    //MainWindow menu2;
     menu1.show();
     //menu2.show();
-    return a.exec();
+    return app.exec();
+
 }

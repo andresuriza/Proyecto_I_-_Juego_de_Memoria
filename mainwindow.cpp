@@ -2,22 +2,22 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "dialog.h"
-using namespace std;
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
-    this ->setWindowTitle("aa");
+    this->setFixedSize(1078,618);
+    this->setWindowTitle("Player");
 }
 
-void MainWindow::on_pushButton_pressed()
+void MainWindow::on_pushButton_clicked()
 {
-    //this->close();
+    this->close();
     Dialog d;
-    //d.setModal(false);
+    d.setModal(false);
+    d.show();
     d.exec();
 }
 
