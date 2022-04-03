@@ -2,6 +2,68 @@
 #include "ui_dialog.h"
 #include <iostream>
 #include "main2.cpp"
+#include <iostream>
+#include <QByteArray>
+#include <QPixmap>
+#include <QBuffer>
+#include <iostream>
+#include "mainwindow.h"
+#include <QApplication>
+#include <boost/asio.hpp>
+
+using namespace std;
+using namespace boost::asio;
+using ip::tcp;
+
+
+class Client_socket
+{
+public:
+    void start()
+    {
+        boost::asio::io_service ios;
+        tcp::socket socket(ios);
+        socket.connect(tcp::endpoint(boost::asio::ip::address::from_string("127.0.0.1"),
+                                     1234));
+
+        /*
+        const string msg = "Hello from Client!\n";
+        boost::system::error_code error;
+        boost::asio::write(socket, boost::asio::buffer(msg), error);
+
+        if (!error) {
+            cout << "Client sent hello message!" << endl;
+        } else {
+            cout << "send failed: " << error.message() << endl;
+        }
+
+        boost::asio::streambuf receive_buffer;
+        boost::asio::read(socket, receive_buffer, boost::asio::transfer_all(), error);
+        if (error && error != boost::asio::error::eof) {
+            cout << "receive failed: " << error.message() << endl;
+        } else {
+            const char *data = boost::asio::buffer_cast<const char *>(receive_buffer.data());
+            cout << data << endl;
+        }
+         */
+    }
+
+    void send_message(string msg)
+    {
+        boost::asio::io_service ios;
+        tcp::socket socket(ios);
+        socket.connect(tcp::endpoint(boost::asio::ip::address::from_string("127.0.0.1"),
+                                     1234));
+        boost::system::error_code error;
+        boost::asio::write(socket, boost::asio::buffer(msg), error);
+
+        if (!error) {
+            cout << "Client sent hello message!" << endl;
+        } else {
+            cout << "send failed: " << error.message() << endl;
+        }
+    }
+};
 
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
@@ -14,7 +76,6 @@ Dialog::Dialog(QWidget *parent) :
     Game_logic g1;
     g1.shuffler();
     g1.matrix_maker();
-    g1.matrix_reader();
 
     QPixmap pix1;
     pix1.loadFromData(g1.matrix_selector(0,0), "PNG");
@@ -76,6 +137,13 @@ Dialog::Dialog(QWidget *parent) :
     ui->label_image12->setPixmap(pix12);
     ui->pushButton_12->setFlat(true);
 }
+
+void Dialog::on_pushButton_clicked()
+{
+    Client_socket c1;
+    c1.send_message("I work!\n");
+}
+
 
 Dialog::~Dialog()
 {

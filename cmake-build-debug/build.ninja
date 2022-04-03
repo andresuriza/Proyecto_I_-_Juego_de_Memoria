@@ -80,14 +80,6 @@ build CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o:
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
   OBJECT_FILE_DIR = CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen
 
-build CMakeFiles/Proyecto_I_UI.dir/main.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/main.cpp || cmake_object_order_depends_target_Proyecto_I_UI
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/Proyecto_I_UI.dir/main.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++11
-  INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/include" -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++
-  OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
-  OBJECT_FILE_DIR = CMakeFiles/Proyecto_I_UI.dir
-
 build CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/mainwindow.cpp || cmake_object_order_depends_target_Proyecto_I_UI
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o.d
@@ -112,6 +104,14 @@ build CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o: CXX_COMPILER__Proyecto_I_UI_Deb
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
   OBJECT_FILE_DIR = CMakeFiles/Proyecto_I_UI.dir
 
+build CMakeFiles/Proyecto_I_UI.dir/client.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/client.cpp || cmake_object_order_depends_target_Proyecto_I_UI
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Proyecto_I_UI.dir/client.cpp.o.d
+  FLAGS = -g -fPIC -std=gnu++11
+  INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/include" -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++
+  OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
+  OBJECT_FILE_DIR = CMakeFiles/Proyecto_I_UI.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Proyecto_I_UI
@@ -120,7 +120,7 @@ build CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o: CXX_COMPILER__Proyecto_I_UI_Deb
 #############################################
 # Link the executable Proyecto_I_UI
 
-build Proyecto_I_UI: CXX_EXECUTABLE_LINKER__Proyecto_I_UI_Debug CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o CMakeFiles/Proyecto_I_UI.dir/main.cpp.o CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o | /usr/lib/libQt5Widgets.so.5.15.3 /usr/lib/libQt5Gui.so.5.15.3 /usr/lib/libQt5Core.so.5.15.3 || Proyecto_I_UI_autogen Proyecto_I_UI_autogen_timestamp_deps
+build Proyecto_I_UI: CXX_EXECUTABLE_LINKER__Proyecto_I_UI_Debug CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o CMakeFiles/Proyecto_I_UI.dir/client.cpp.o | /usr/lib/libQt5Widgets.so.5.15.3 /usr/lib/libQt5Gui.so.5.15.3 /usr/lib/libQt5Core.so.5.15.3 || Proyecto_I_UI_autogen Proyecto_I_UI_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/libQt5Widgets.so.5.15.3  /usr/lib/libQt5Gui.so.5.15.3  /usr/lib/libQt5Core.so.5.15.3
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
@@ -128,6 +128,52 @@ build Proyecto_I_UI: CXX_EXECUTABLE_LINKER__Proyecto_I_UI_Debug CMakeFiles/Proye
   PRE_LINK = :
   TARGET_FILE = Proyecto_I_UI
   TARGET_PDB = Proyecto_I_UI.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target server
+
+
+#############################################
+# Order-only phony target for server
+
+build cmake_object_order_depends_target_server: phony || server_autogen server_autogen/mocs_compilation.cpp server_autogen/timestamp server_autogen_timestamp_deps
+
+build CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: CXX_COMPILER__server_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/cmake-build-debug/server_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/server_autogen/include"
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/server_autogen
+
+build CMakeFiles/server.dir/main.cpp.o: CXX_COMPILER__server_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/main.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/server_autogen/include"
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir
+
+build CMakeFiles/server.dir/server.cpp.o: CXX_COMPILER__server_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/server.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/server.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/server_autogen/include"
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target server
+
+
+#############################################
+# Link the executable server
+
+build server: CXX_EXECUTABLE_LINKER__server_Debug CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o CMakeFiles/server.dir/main.cpp.o CMakeFiles/server.dir/server.cpp.o || server_autogen server_autogen_timestamp_deps
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/server.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = server
+  TARGET_PDB = server.dbg
 
 
 #############################################
@@ -143,12 +189,34 @@ build Proyecto_I_UI_autogen: phony CMakeFiles/Proyecto_I_UI_autogen Proyecto_I_U
 
 
 #############################################
+# Utility command for server_autogen_timestamp_deps
+
+build server_autogen_timestamp_deps: phony CMakeFiles/server_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for server_autogen
+
+build server_autogen: phony CMakeFiles/server_autogen server_autogen/include/ui_mainwindow.h server_autogen/include/ui_dialog.h server_autogen/timestamp server_autogen/mocs_compilation.cpp server_autogen_timestamp_deps
+
+
+#############################################
 # Custom command for Proyecto_I_UI_autogen/timestamp
 
 build Proyecto_I_UI_autogen/timestamp Proyecto_I_UI_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}Proyecto_I_UI_autogen/timestamp ${cmake_ninja_workdir}Proyecto_I_UI_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/bin/moc /usr/bin/uic || Proyecto_I_UI_autogen_timestamp_deps
   COMMAND = cd "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" && /var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake -E cmake_autogen "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/Proyecto_I_UI_autogen.dir/AutogenInfo.json" Debug && /var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake -E touch "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/timestamp" && /var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake -E cmake_transform_depfile Ninja gccdepfile "/home/andres/Documents/III SEMESTRE/Proyecto_I" "/home/andres/Documents/III SEMESTRE/Proyecto_I" "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/deps" "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/d/83f888415b204d1f7e7f2f8d6429a19ba3195380593df727b8910185a83289f2.d"
   DESC = Automatic MOC and UIC for target Proyecto_I_UI
   depfile = /home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/d/83f888415b204d1f7e7f2f8d6429a19ba3195380593df727b8910185a83289f2.d
+  restat = 1
+
+
+#############################################
+# Custom command for server_autogen/timestamp
+
+build server_autogen/timestamp server_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}server_autogen/timestamp ${cmake_ninja_workdir}server_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/bin/moc /usr/bin/uic || server_autogen_timestamp_deps
+  COMMAND = cd "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" && /var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake -E cmake_autogen "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/server_autogen.dir/AutogenInfo.json" Debug && /var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake -E touch "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/server_autogen/timestamp" && /var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake -E cmake_transform_depfile Ninja gccdepfile "/home/andres/Documents/III SEMESTRE/Proyecto_I" "/home/andres/Documents/III SEMESTRE/Proyecto_I" "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/server_autogen/deps" "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/d/b1e8b73a4378d3b6a7979fb0fde3e78a89e8b5e2bb209cfcee8f11a1ab66a5f1.d"
+  DESC = Automatic MOC and UIC for target server
+  depfile = /home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/d/b1e8b73a4378d3b6a7979fb0fde3e78a89e8b5e2bb209cfcee8f11a1ab66a5f1.d
   restat = 1
 
 
@@ -163,6 +231,18 @@ build CMakeFiles/Proyecto_I_UI_autogen_timestamp_deps | ${cmake_ninja_workdir}CM
 
 build CMakeFiles/Proyecto_I_UI_autogen Proyecto_I_UI_autogen/include/ui_mainwindow.h Proyecto_I_UI_autogen/include/ui_dialog.h | ${cmake_ninja_workdir}CMakeFiles/Proyecto_I_UI_autogen ${cmake_ninja_workdir}Proyecto_I_UI_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}Proyecto_I_UI_autogen/include/ui_dialog.h: phony Proyecto_I_UI_autogen/timestamp || Proyecto_I_UI_autogen_timestamp_deps
 
+
+#############################################
+# Phony custom command for CMakeFiles/server_autogen_timestamp_deps
+
+build CMakeFiles/server_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/server_autogen_timestamp_deps: phony /usr/bin/uic /usr/bin/moc
+
+
+#############################################
+# Phony custom command for CMakeFiles/server_autogen
+
+build CMakeFiles/server_autogen server_autogen/include/ui_mainwindow.h server_autogen/include/ui_dialog.h | ${cmake_ninja_workdir}CMakeFiles/server_autogen ${cmake_ninja_workdir}server_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}server_autogen/include/ui_dialog.h: phony server_autogen/timestamp || server_autogen_timestamp_deps
+
 # =============================================================================
 # Target aliases.
 
@@ -174,7 +254,7 @@ build CMakeFiles/Proyecto_I_UI_autogen Proyecto_I_UI_autogen/include/ui_mainwind
 #############################################
 # Folder: /home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug
 
-build all: phony Proyecto_I_UI
+build all: phony Proyecto_I_UI server
 
 # =============================================================================
 # Built-in targets

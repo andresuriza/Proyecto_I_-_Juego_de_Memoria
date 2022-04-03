@@ -1,11 +1,11 @@
 Proyecto_I_UI_autogen/timestamp: \
   ../CMakeLists.txt \
+  ../client.cpp \
   CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
   CMakeFiles/3.21.1/CMakeSystem.cmake \
   Proyecto_I_UI_autogen/moc_predefs.h \
   ../dialog.cpp \
   ../dialog.h \
-  ../main.cpp \
   ../main2.cpp \
   ../mainwindow.cpp \
   ../mainwindow.h \

@@ -15,7 +15,6 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
 set(PROJECT_SOURCES
-        main.cpp
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
@@ -23,7 +22,10 @@ set(PROJECT_SOURCES
         dialog.cpp
         dialog.h
         dialog.ui
+        client.cpp
         )
+
+add_executable(server main.cpp server.cpp)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Proyecto_I_UI

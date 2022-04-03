@@ -2,6 +2,10 @@
 #include <QByteArray>
 #include <QPixmap>
 #include <QBuffer>
+#include <iostream>
+#include "mainwindow.h"
+#include <QApplication>
+#include <boost/asio.hpp>
 
 using namespace std;
 
