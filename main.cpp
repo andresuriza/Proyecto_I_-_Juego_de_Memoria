@@ -1,16 +1,23 @@
 #include <iostream>
 #include "server.cpp"
 
+using namespace std;
+
+
 int main(int argc, char *argv[])
 {
-    Server_socket s1;
-    boost::asio::io_service ios;
-    tcp::acceptor acceptor(ios, tcp::endpoint(tcp::v4(), 1234));
-    tcp::socket socket(ios);
-    acceptor.accept(socket);
-    string message = s1.read(socket);
-    cout << message << endl;
+    try
+    {
+        boost::asio::io_context io_context;
+        tcp_server server(io_context);
+        io_context.run();
+    }
+    catch (std::exception& e)
+    {
+        std::cerr << e.what() << std::endl;
+    }
+
+    return 0;
     //s1.send(socket, "Hello from Server!");
     //cout << "Server sent Hello Message to Client!" << endl;
-    return 0;
 }

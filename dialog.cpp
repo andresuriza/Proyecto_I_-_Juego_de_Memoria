@@ -26,7 +26,6 @@ public:
         socket.connect(tcp::endpoint(boost::asio::ip::address::from_string("127.0.0.1"),
                                      1234));
 
-        /*
         const string msg = "Hello from Client!\n";
         boost::system::error_code error;
         boost::asio::write(socket, boost::asio::buffer(msg), error);
@@ -45,9 +44,9 @@ public:
             const char *data = boost::asio::buffer_cast<const char *>(receive_buffer.data());
             cout << data << endl;
         }
-         */
     }
 
+    /*
     void send_message(string msg)
     {
         boost::asio::io_service ios;
@@ -63,6 +62,7 @@ public:
             cout << "send failed: " << error.message() << endl;
         }
     }
+     */
 };
 
 Dialog::Dialog(QWidget *parent) :
@@ -141,7 +141,7 @@ Dialog::Dialog(QWidget *parent) :
 void Dialog::on_pushButton_clicked()
 {
     Client_socket c1;
-    c1.send_message("I work!\n");
+    c1.start();
 }
 
 
