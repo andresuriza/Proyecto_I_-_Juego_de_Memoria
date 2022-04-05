@@ -39,10 +39,12 @@ public:
                                             boost::asio::placeholders::error,
                                             boost::asio::placeholders::bytes_transferred));
 
+        /*
         socket_.async_write_some(boost::asio::buffer(data, max_length),
                                  boost::bind(&tcp_connection::handle_write, shared_from_this(),
                                              boost::asio::placeholders::error,
                                              boost::asio::placeholders::bytes_transferred));
+                                             */
     }
 
     void handle_write(const boost::system::error_code& err, size_t bytes_transferred)

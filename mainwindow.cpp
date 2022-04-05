@@ -3,13 +3,11 @@
 #include "./ui_mainwindow.h"
 #include "dialog.h"
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+MainWindow::MainWindow(QWidget *parent, QString name): QMainWindow(parent), ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
     this->setFixedSize(1078,618);
-    this->setWindowTitle("Player");
+    this->setWindowTitle(name);
 }
 
 void MainWindow::on_pushButton_clicked()

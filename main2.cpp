@@ -182,8 +182,8 @@ public:
         }
     }
 
-    QByteArray matrix_selector(int col, int row) {
-        return matrix[col][row].get_image();
+    Card matrix_selector(int col, int row) {
+        return matrix[col][row];
     }
 
     void make_a_move() // Asks for player to choose a pair and verifies it
