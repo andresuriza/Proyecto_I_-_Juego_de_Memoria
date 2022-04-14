@@ -1,9 +1,9 @@
 server_autogen/timestamp: \
 	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/CMakeLists.txt \
+	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/Server.cpp \
+	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/Server_main.cpp \
 	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
 	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake \
-	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/main.cpp \
-	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/server.cpp \
 	/usr/lib64/cmake/Qt5/Qt5Config.cmake \
 	/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake \
 	/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake \

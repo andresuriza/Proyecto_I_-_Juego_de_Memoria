@@ -3,24 +3,11 @@
 #include <QApplication>
 #include <boost/asio.hpp>
 #include <boost/array.hpp>
+#include "Game_logic.cpp"
 
 using namespace std;
 
 using boost::asio::ip::tcp;
-
-
-
-        /*
-        boost::asio::streambuf receive_buffer;
-        boost::asio::read(socket, receive_buffer, boost::asio::transfer_all(), error);
-        if( error && error != boost::asio::error::eof ) {
-            cout << "receive failed: " << error.message() << endl;
-        }
-        else {
-            const char* data = boost::asio::buffer_cast<const char*>(receive_buffer.data());
-            cout << data << endl;
-        }
-         */
 
 int main (int argc, char *argv[])
 {

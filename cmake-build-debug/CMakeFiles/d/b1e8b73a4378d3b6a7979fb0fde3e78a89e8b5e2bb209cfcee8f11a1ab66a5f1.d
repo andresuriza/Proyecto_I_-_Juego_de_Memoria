@@ -1,9 +1,9 @@
 server_autogen/timestamp: \
   ../CMakeLists.txt \
+  ../Server.cpp \
+  ../Server_main.cpp \
   CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
   CMakeFiles/3.21.1/CMakeSystem.cmake \
-  ../main.cpp \
-  ../server.cpp \
   /usr/lib64/cmake/Qt5/Qt5Config.cmake \
   /usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake \
   /usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake \

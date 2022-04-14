@@ -88,9 +88,9 @@ build CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o: CXX_COMPILER__Proyecto_I_UI
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
   OBJECT_FILE_DIR = CMakeFiles/Proyecto_I_UI.dir
 
-build CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/main2.cpp || cmake_object_order_depends_target_Proyecto_I_UI
+build CMakeFiles/Proyecto_I_UI.dir/Game_logic.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/Game_logic.cpp || cmake_object_order_depends_target_Proyecto_I_UI
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o.d
+  DEP_FILE = CMakeFiles/Proyecto_I_UI.dir/Game_logic.cpp.o.d
   FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/include" -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
@@ -104,9 +104,9 @@ build CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o: CXX_COMPILER__Proyecto_I_UI_Deb
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
   OBJECT_FILE_DIR = CMakeFiles/Proyecto_I_UI.dir
 
-build CMakeFiles/Proyecto_I_UI.dir/client.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/client.cpp || cmake_object_order_depends_target_Proyecto_I_UI
+build CMakeFiles/Proyecto_I_UI.dir/Client.cpp.o: CXX_COMPILER__Proyecto_I_UI_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/Client.cpp || cmake_object_order_depends_target_Proyecto_I_UI
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/Proyecto_I_UI.dir/client.cpp.o.d
+  DEP_FILE = CMakeFiles/Proyecto_I_UI.dir/Client.cpp.o.d
   FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/include" -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
@@ -120,7 +120,7 @@ build CMakeFiles/Proyecto_I_UI.dir/client.cpp.o: CXX_COMPILER__Proyecto_I_UI_Deb
 #############################################
 # Link the executable Proyecto_I_UI
 
-build Proyecto_I_UI: CXX_EXECUTABLE_LINKER__Proyecto_I_UI_Debug CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o CMakeFiles/Proyecto_I_UI.dir/main2.cpp.o CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o CMakeFiles/Proyecto_I_UI.dir/client.cpp.o | /usr/lib/libQt5Widgets.so.5.15.3 /usr/lib/libQt5Gui.so.5.15.3 /usr/lib/libQt5Core.so.5.15.3 || Proyecto_I_UI_autogen Proyecto_I_UI_autogen_timestamp_deps
+build Proyecto_I_UI: CXX_EXECUTABLE_LINKER__Proyecto_I_UI_Debug CMakeFiles/Proyecto_I_UI.dir/Proyecto_I_UI_autogen/mocs_compilation.cpp.o CMakeFiles/Proyecto_I_UI.dir/mainwindow.cpp.o CMakeFiles/Proyecto_I_UI.dir/Game_logic.cpp.o CMakeFiles/Proyecto_I_UI.dir/dialog.cpp.o CMakeFiles/Proyecto_I_UI.dir/Client.cpp.o | /usr/lib/libQt5Widgets.so.5.15.3 /usr/lib/libQt5Gui.so.5.15.3 /usr/lib/libQt5Core.so.5.15.3 || Proyecto_I_UI_autogen Proyecto_I_UI_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/libQt5Widgets.so.5.15.3  /usr/lib/libQt5Gui.so.5.15.3  /usr/lib/libQt5Core.so.5.15.3
   OBJECT_DIR = CMakeFiles/Proyecto_I_UI.dir
@@ -145,15 +145,15 @@ build CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles/server.dir
   OBJECT_FILE_DIR = CMakeFiles/server.dir/server_autogen
 
-build CMakeFiles/server.dir/main.cpp.o: CXX_COMPILER__server_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/main.cpp || cmake_object_order_depends_target_server
-  DEP_FILE = CMakeFiles/server.dir/main.cpp.o.d
+build CMakeFiles/server.dir/Server_main.cpp.o: CXX_COMPILER__server_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/Server_main.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/Server_main.cpp.o.d
   FLAGS = -g -std=gnu++11
   INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/server_autogen/include"
   OBJECT_DIR = CMakeFiles/server.dir
   OBJECT_FILE_DIR = CMakeFiles/server.dir
 
-build CMakeFiles/server.dir/server.cpp.o: CXX_COMPILER__server_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/server.cpp || cmake_object_order_depends_target_server
-  DEP_FILE = CMakeFiles/server.dir/server.cpp.o.d
+build CMakeFiles/server.dir/Server.cpp.o: CXX_COMPILER__server_Debug /home/andres/Documents/III$ SEMESTRE/Proyecto_I/Server.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/Server.cpp.o.d
   FLAGS = -g -std=gnu++11
   INCLUDES = -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I" -I"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/server_autogen/include"
   OBJECT_DIR = CMakeFiles/server.dir
@@ -167,7 +167,7 @@ build CMakeFiles/server.dir/server.cpp.o: CXX_COMPILER__server_Debug /home/andre
 #############################################
 # Link the executable server
 
-build server: CXX_EXECUTABLE_LINKER__server_Debug CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o CMakeFiles/server.dir/main.cpp.o CMakeFiles/server.dir/server.cpp.o || server_autogen server_autogen_timestamp_deps
+build server: CXX_EXECUTABLE_LINKER__server_Debug CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o CMakeFiles/server.dir/Server_main.cpp.o CMakeFiles/server.dir/Server.cpp.o || server_autogen server_autogen_timestamp_deps
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/server.dir
   POST_BUILD = :

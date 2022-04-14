@@ -6,38 +6,52 @@
 #include <QElapsedTimer>
 #include <QTimeEdit>
 #include <QTimer>
+#include <cstring>
 
 using boost::asio::ip::tcp;
 using namespace std;
 
-class Client_socket
+void Client_socket::send(const string msg)
 {
-public:
-    void start(const string msg) {
-        boost::asio::io_context io_context;
-        tcp::socket socket(io_context);
+    boost::asio::io_context io_context;
+    tcp::socket socket(io_context);
 
-        socket.connect(tcp::endpoint(boost::asio::ip::address::from_string("127.0.0.1"),
-                                     1234));
+    socket.connect(tcp::endpoint(boost::asio::ip::address::from_string("127.0.0.1"),
+                                 1234));
+    boost::system::error_code error;
+    boost::asio::write(socket, boost::asio::buffer(msg + ","), error);
 
-        boost::system::error_code error;
-        boost::asio::write(socket, boost::asio::buffer(msg), error);
-        if (!error) {
-            cout << "Client sent a message!" << endl;
+    if (!error) {
+        cout << "Client sent a message! " + msg << endl;
+        n_sent++;
+    } else {
+        cout << "send failed: " << error.message() << endl;
+    }
+
+    if (n_sent == 2) {
+        boost::asio::streambuf receive_buffer;
+        boost::asio::read(socket, receive_buffer, boost::asio::transfer_all(), error);
+        if (error && error != boost::asio::error::eof) {
+            cout << "receive failed: " << error.message() << endl;
         } else {
-            cout << "send failed: " << error.message() << endl;
-        }
-
-        const string msg2 = "hello again\n";
-
-        boost::asio::write(socket, boost::asio::buffer(msg2), error);
-        if (!error) {
-            cout << "Client sent another message!" << endl;
-        } else {
-            cout << "send failed: " << error.message() << endl;
+            const char *data = boost::asio::buffer_cast<const char*>(receive_buffer.data());
+            cout << data << endl;
+            n_sent = 0;
         }
     }
-};
+}
+
+/*
+boost::asio::streambuf receive_buffer;
+boost::asio::read(socket, receive_buffer, boost::asio::transfer_all(), error);
+if( error && error != boost::asio::error::eof ) {
+    cout << "receive failed: " << error.message() << endl;
+}
+else {
+    const char* data = boost::asio::buffer_cast<const char*>(receive_buffer.data());
+    cout << data << endl;
+}
+*/
 
 Dialog::Dialog(QWidget *parent) : QDialog(parent), ui(new Ui::Dialog)
 {
@@ -108,6 +122,8 @@ Dialog::Dialog(QWidget *parent) : QDialog(parent), ui(new Ui::Dialog)
     ui->label_image12->setPixmap(pix12);
     ui->pushButton_12->setFlat(true);
 
+    g1.matrix_reader();
+
     QTimer* timer = new QTimer(this);
     timer->setInterval(1000);
     connect(timer, SIGNAL(timeout()), this, SLOT(timer_logic()));
@@ -122,74 +138,122 @@ void Dialog::timer_logic() // Adds a second and updates the label
 
 void Dialog::on_pushButton_clicked()
 {
-    g1.matrix_selector(0,0);
-    Client_socket c1;
+    if (g1.matrix_selector(0,0).get_taken() == false) {
+        c1.send(g1.matrix_selector(0,0).get_type());
+        g1.matrix_selector(0,0).change_status();
+    }
 }
 
-void Dialog::on_pushButton2_clicked()
+void Dialog::on_pushButton_2_clicked()
 {
-    g1.matrix_selector(0,1);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(0,1);
+    cout << chosen_c.get_taken() << endl;
+
+    if (chosen_c.get_taken() == false) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+        cout << chosen_c.get_taken() << endl;
+    }
 }
 
-void Dialog::on_pushButton3_clicked()
+void Dialog::on_pushButton_3_clicked()
 {
-    g1.matrix_selector(0,2);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(0,2);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
-void Dialog::on_pushButton4_clicked()
+void Dialog::on_pushButton_4_clicked()
 {
-    g1.matrix_selector(1,0);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(0,3);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
-void Dialog::on_pushButton5_clicked()
+void Dialog::on_pushButton_5_clicked()
 {
-    g1.matrix_selector(1,1);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(1,0);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
-void Dialog::on_pushButton6_clicked()
+void Dialog::on_pushButton_6_clicked()
 {
-    g1.matrix_selector(1,2);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(1,1);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
-void Dialog::on_pushButton7_clicked()
+void Dialog::on_pushButton_7_clicked()
 {
-    g1.matrix_selector(2,0);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(1,2);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
-void Dialog::on_pushButton8_clicked()
+void Dialog::on_pushButton_8_clicked()
 {
-    g1.matrix_selector(2,1);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(1,3);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
-void Dialog::on_pushButton9_clicked()
+void Dialog::on_pushButton_9_clicked()
 {
-    g1.matrix_selector(2,2);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(2,0);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
-void Dialog::on_pushButton10_clicked()
+void Dialog::on_pushButton_10_clicked()
 {
-    g1.matrix_selector(3,0);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(2,1);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
-void Dialog::on_pushButton11_clicked()
+void Dialog::on_pushButton_11_clicked()
 {
-    g1.matrix_selector(3,1);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(2,2);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
-void Dialog::on_pushButton12_clicked()
+void Dialog::on_pushButton_12_clicked()
 {
-    g1.matrix_selector(3,2);
-    Client_socket c1;
+    Card chosen_c = g1.matrix_selector(2,3);
+
+    if (!chosen_c.get_taken()) {
+        c1.send(chosen_c.get_type());
+        chosen_c.change_status();
+    }
 }
 
 Dialog::~Dialog()

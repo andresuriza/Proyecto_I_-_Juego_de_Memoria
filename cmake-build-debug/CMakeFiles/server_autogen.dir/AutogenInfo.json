@@ -140,9 +140,13 @@
 	"SETTINGS_FILE" : "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/server_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/andres/Documents/III SEMESTRE/Proyecto_I/main.cpp", "MU", null ],
 		[
-			"/home/andres/Documents/III SEMESTRE/Proyecto_I/server.cpp",
+			"/home/andres/Documents/III SEMESTRE/Proyecto_I/Server.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/andres/Documents/III SEMESTRE/Proyecto_I/Server_main.cpp",
 			"MU",
 			null
 		]

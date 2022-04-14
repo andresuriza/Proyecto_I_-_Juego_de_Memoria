@@ -1,5 +1,5 @@
 #include <iostream>
-#include "server.cpp"
+#include "Server.cpp"
 
 using namespace std;
 
@@ -18,6 +18,4 @@ int main(int argc, char *argv[])
     }
 
     return 0;
-    //s1.send(socket, "Hello from Server!");
-    //cout << "Server sent Hello Message to Client!" << endl;
 }

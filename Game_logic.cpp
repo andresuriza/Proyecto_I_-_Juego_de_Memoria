@@ -16,9 +16,17 @@ private:
     bool taken = false;
 
 public:
-    void set_type(string val)
-    {
+    void set_type(string val) {
         type = val;
+    }
+
+    void change_status()
+    {
+        if (taken == false) {
+            this->taken = true;
+        } else if (taken == true) {
+            this->taken = false;
+        }
     }
 
     void set_image(QByteArray img) {
@@ -35,8 +43,8 @@ public:
         return image;
     }
 
-    void set_taken() {
-        taken = true;
+    bool get_taken() {
+        return taken;
     }
 };
 
@@ -173,7 +181,7 @@ public:
 
         while (col < 3) {
             while (row < 4) {
-                cout << matrix[col][row].get_type();
+                cout << matrix[col][row].get_type() + " ";
                 row++;
             }
             row = 0;
@@ -184,31 +192,5 @@ public:
 
     Card matrix_selector(int col, int row) {
         return matrix[col][row];
-    }
-
-    void make_a_move() // Asks for player to choose a pair and verifies it
-    {
-        int col;
-        int row;
-        int col2;
-        int row2;
-        cout << "Choose a column" << endl;
-        cin >> col;
-        cout << "Choose a row" << endl;
-        cin >> row;
-        cout << "Choose another column" << endl;
-        cin >> col2;
-        cout << "Choose another row" << endl;
-        cin >> row2;
-
-        if (col == col2 && row == row2) {
-        } else {
-            if (matrix[col][row].get_type() == matrix[col2][row2].get_type()) {
-                matrix[col][row].set_taken();
-                cout << "wow, you're very lucky";
-            } else {
-                cout << "tough luck";
-            }
-        }
     }
 };

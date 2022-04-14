@@ -18,14 +18,14 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        main2.cpp
+        Game_logic.cpp
         dialog.cpp
         dialog.h
         dialog.ui
-        client.cpp
+        Client.cpp
         )
 
-add_executable(server main.cpp server.cpp)
+add_executable(server Server_main.cpp Server.cpp)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Proyecto_I_UI

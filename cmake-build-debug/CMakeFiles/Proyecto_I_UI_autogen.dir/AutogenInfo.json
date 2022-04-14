@@ -156,17 +156,17 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/andres/Documents/III SEMESTRE/Proyecto_I/client.cpp",
+			"/home/andres/Documents/III SEMESTRE/Proyecto_I/Client.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/andres/Documents/III SEMESTRE/Proyecto_I/Game_logic.cpp",
 			"MU",
 			null
 		],
 		[
 			"/home/andres/Documents/III SEMESTRE/Proyecto_I/dialog.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/andres/Documents/III SEMESTRE/Proyecto_I/main2.cpp",
 			"MU",
 			null
 		],
