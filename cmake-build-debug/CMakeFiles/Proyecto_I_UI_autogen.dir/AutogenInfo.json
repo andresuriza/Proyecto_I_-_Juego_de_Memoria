@@ -3,26 +3,26 @@
 	"CMAKE_BINARY_DIR" : "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/andres/Documents/III SEMESTRE/Proyecto_I",
-	"CMAKE_EXECUTABLE" : "/var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake",
+	"CMAKE_EXECUTABLE" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
 		"/home/andres/Documents/III SEMESTRE/Proyecto_I/CMakeLists.txt",
-		"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake",
-		"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
 		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
@@ -37,7 +37,7 @@
 		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
 		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
 		"/usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
 		"/usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
 		"/usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
 		"/usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
@@ -83,7 +83,17 @@
 		"/usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
 		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/andres/Documents/III SEMESTRE/Proyecto_I",
 	"DEP_FILE" : "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/deps",
@@ -101,12 +111,18 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"/home/andres/Documents/III SEMESTRE/Proyecto_I/mainwindow2.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow2.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -123,6 +139,7 @@
 		"/usr/include/qt/QtGui",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/qt/QtNetwork",
 		"/usr/include/c++/11.2.0",
 		"/usr/include/c++/11.2.0/x86_64-pc-linux-gnu",
 		"/usr/include/c++/11.2.0/backward",
@@ -140,7 +157,7 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+		"/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
 	],
 	"MOC_PREDEFS_FILE" : "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
@@ -172,6 +189,11 @@
 		],
 		[
 			"/home/andres/Documents/III SEMESTRE/Proyecto_I/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/andres/Documents/III SEMESTRE/Proyecto_I/mainwindow2.cpp",
 			"MU",
 			null
 		]

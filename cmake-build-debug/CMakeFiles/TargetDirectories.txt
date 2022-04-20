@@ -1,7 +1,7 @@
-/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/Proyecto_I_UI.dir
 /home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/server.dir
+/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/Proyecto_I_UI_autogen_timestamp_deps.dir
 /home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/Proyecto_I_UI_autogen.dir
 /home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/server_autogen_timestamp_deps.dir

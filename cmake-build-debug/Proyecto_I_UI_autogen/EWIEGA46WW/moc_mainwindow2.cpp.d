@@ -1,16 +1,5 @@
-Proyecto_I_UI_autogen/timestamp: \
-  ../CMakeLists.txt \
-  ../Client.cpp \
-  ../Game_logic.cpp \
-  CMakeFiles/3.22.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.22.3/CMakeSystem.cmake \
-  Proyecto_I_UI_autogen/moc_predefs.h \
-  ../dialog.cpp \
-  ../dialog.h \
-  ../mainwindow.cpp \
-  ../mainwindow.h \
-  ../mainwindow2.cpp \
-  ../mainwindow2.h \
+/home/andres/Documents/III\ SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/EWIEGA46WW/moc_mainwindow2.cpp: /home/andres/Documents/III\ SEMESTRE/Proyecto_I/mainwindow2.h \
+  /home/andres/Documents/III\ SEMESTRE/Proyecto_I/cmake-build-debug/Proyecto_I_UI_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm/errno.h \
@@ -104,7 +93,6 @@ Proyecto_I_UI_autogen/timestamp: \
   /usr/include/c++/11.2.0/bits/hash_bytes.h \
   /usr/include/c++/11.2.0/bits/invoke.h \
   /usr/include/c++/11.2.0/bits/ios_base.h \
-  /usr/include/c++/11.2.0/bits/istream.tcc \
   /usr/include/c++/11.2.0/bits/iterator_concepts.h \
   /usr/include/c++/11.2.0/bits/list.tcc \
   /usr/include/c++/11.2.0/bits/locale_classes.h \
@@ -192,8 +180,6 @@ Proyecto_I_UI_autogen/timestamp: \
   /usr/include/c++/11.2.0/initializer_list \
   /usr/include/c++/11.2.0/ios \
   /usr/include/c++/11.2.0/iosfwd \
-  /usr/include/c++/11.2.0/iostream \
-  /usr/include/c++/11.2.0/istream \
   /usr/include/c++/11.2.0/iterator \
   /usr/include/c++/11.2.0/limits \
   /usr/include/c++/11.2.0/list \
@@ -237,14 +223,11 @@ Proyecto_I_UI_autogen/timestamp: \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
-  /usr/include/qt/QtCore/QBuffer \
-  /usr/include/qt/QtCore/QByteArray \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
   /usr/include/qt/QtCore/qatomic_cxx11.h \
   /usr/include/qt/QtCore/qbasicatomic.h \
-  /usr/include/qt/QtCore/qbuffer.h \
   /usr/include/qt/QtCore/qbytearray.h \
   /usr/include/qt/QtCore/qbytearraylist.h \
   /usr/include/qt/QtCore/qchar.h \
@@ -252,10 +235,7 @@ Proyecto_I_UI_autogen/timestamp: \
   /usr/include/qt/QtCore/qconfig.h \
   /usr/include/qt/QtCore/qcontainerfwd.h \
   /usr/include/qt/QtCore/qcontainertools_impl.h \
-  /usr/include/qt/QtCore/qcoreapplication.h \
-  /usr/include/qt/QtCore/qcoreevent.h \
   /usr/include/qt/QtCore/qdatastream.h \
-  /usr/include/qt/QtCore/qeventloop.h \
   /usr/include/qt/QtCore/qflags.h \
   /usr/include/qt/QtCore/qgenericatomic.h \
   /usr/include/qt/QtCore/qglobal.h \
@@ -266,9 +246,7 @@ Proyecto_I_UI_autogen/timestamp: \
   /usr/include/qt/QtCore/qiterator.h \
   /usr/include/qt/QtCore/qline.h \
   /usr/include/qt/QtCore/qlist.h \
-  /usr/include/qt/QtCore/qlocale.h \
   /usr/include/qt/QtCore/qlogging.h \
-  /usr/include/qt/QtCore/qmap.h \
   /usr/include/qt/QtCore/qmargins.h \
   /usr/include/qt/QtCore/qmetatype.h \
   /usr/include/qt/QtCore/qnamespace.h \
@@ -298,21 +276,17 @@ Proyecto_I_UI_autogen/timestamp: \
   /usr/include/qt/QtCore/qsystemdetection.h \
   /usr/include/qt/QtCore/qtcore-config.h \
   /usr/include/qt/QtCore/qtypeinfo.h \
-  /usr/include/qt/QtCore/qvariant.h \
   /usr/include/qt/QtCore/qvarlengtharray.h \
   /usr/include/qt/QtCore/qvector.h \
   /usr/include/qt/QtCore/qversiontagging.h \
-  /usr/include/qt/QtGui/QPixmap \
   /usr/include/qt/QtGui/qbrush.h \
   /usr/include/qt/QtGui/qcolor.h \
   /usr/include/qt/QtGui/qcursor.h \
   /usr/include/qt/QtGui/qfont.h \
   /usr/include/qt/QtGui/qfontinfo.h \
   /usr/include/qt/QtGui/qfontmetrics.h \
-  /usr/include/qt/QtGui/qguiapplication.h \
   /usr/include/qt/QtGui/qicon.h \
   /usr/include/qt/QtGui/qimage.h \
-  /usr/include/qt/QtGui/qinputmethod.h \
   /usr/include/qt/QtGui/qkeysequence.h \
   /usr/include/qt/QtGui/qmatrix.h \
   /usr/include/qt/QtGui/qpaintdevice.h \
@@ -327,11 +301,7 @@ Proyecto_I_UI_autogen/timestamp: \
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
-  /usr/include/qt/QtWidgets/QApplication \
-  /usr/include/qt/QtWidgets/QDialog \
   /usr/include/qt/QtWidgets/QMainWindow \
-  /usr/include/qt/QtWidgets/qapplication.h \
-  /usr/include/qt/QtWidgets/qdialog.h \
   /usr/include/qt/QtWidgets/qmainwindow.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/qtabwidget.h \
@@ -353,85 +323,4 @@ Proyecto_I_UI_autogen/timestamp: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed/syslimits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
-  /usr/lib64/cmake/Qt5/Qt5Config.cmake \
-  /usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake \
-  /usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake \
-  /usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake \
-  /usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-  /usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-  /usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
-  /usr/lib64/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
-  /usr/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake \
-  /usr/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake \
-  /usr/lib64/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake \
-  /usr/lib64/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake \
-  /usr/lib64/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake \
-  /usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
-  /usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
-  /usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
-  /usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake \
-  ../dialog.ui \
-  ../mainwindow.ui \
-  ../mainwindow2.ui \
-  /var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h

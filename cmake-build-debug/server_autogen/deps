@@ -2,8 +2,8 @@ server_autogen/timestamp: \
 	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/CMakeLists.txt \
 	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/Server.cpp \
 	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/Server_main.cpp \
-	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
-	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake \
+	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake \
+	/home/andres/Documents/III\ SEMESTRE/Proyecto_I/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake \
 	/usr/lib64/cmake/Qt5/Qt5Config.cmake \
 	/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake \
 	/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake \
@@ -57,23 +57,28 @@ server_autogen/timestamp: \
 	/usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
 	/usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
 	/usr/lib64/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
+	/usr/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake \
+	/usr/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake \
+	/usr/lib64/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake \
+	/usr/lib64/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake \
+	/usr/lib64/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake \
 	/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
 	/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
 	/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
 	/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseArguments.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake \
-	/var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake \
+	/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake

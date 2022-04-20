@@ -49,11 +49,7 @@ public:
     QLabel *label;
     QLabel *label_2;
     QLabel *label_3;
-    QLabel *time_val;
-    QLabel *points_val;
-    QPushButton *power2;
-    QPushButton *power3;
-    QPushButton *power1;
+    QLabel *timeVal;
 
     void setupUi(QDialog *Dialog)
     {
@@ -164,30 +160,12 @@ public:
         label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(70, 630, 91, 51));
         label_3->setFont(font);
-        time_val = new QLabel(frame);
-        time_val->setObjectName(QString::fromUtf8("time_val"));
-        time_val->setGeometry(QRect(100, 110, 41, 51));
+        timeVal = new QLabel(frame);
+        timeVal->setObjectName(QString::fromUtf8("timeVal"));
+        timeVal->setGeometry(QRect(110, 110, 41, 51));
         QFont font1;
         font1.setPointSize(22);
-        time_val->setFont(font1);
-        points_val = new QLabel(frame);
-        points_val->setObjectName(QString::fromUtf8("points_val"));
-        points_val->setGeometry(QRect(90, 690, 41, 51));
-        points_val->setFont(font1);
-        power2 = new QPushButton(frame);
-        power2->setObjectName(QString::fromUtf8("power2"));
-        power2->setGeometry(QRect(70, 430, 101, 41));
-        QFont font2;
-        font2.setPointSize(12);
-        power2->setFont(font2);
-        power3 = new QPushButton(frame);
-        power3->setObjectName(QString::fromUtf8("power3"));
-        power3->setGeometry(QRect(70, 490, 101, 41));
-        power3->setFont(font2);
-        power1 = new QPushButton(frame);
-        power1->setObjectName(QString::fromUtf8("power1"));
-        power1->setGeometry(QRect(70, 370, 101, 41));
-        power1->setFont(font2);
+        timeVal->setFont(font1);
 
         retranslateUi(Dialog);
 
@@ -224,11 +202,7 @@ public:
         label->setText(QCoreApplication::translate("Dialog", "Time:", nullptr));
         label_2->setText(QCoreApplication::translate("Dialog", "Powerups:", nullptr));
         label_3->setText(QCoreApplication::translate("Dialog", "Points:", nullptr));
-        time_val->setText(QCoreApplication::translate("Dialog", "0", nullptr));
-        points_val->setText(QCoreApplication::translate("Dialog", "0", nullptr));
-        power2->setText(QCoreApplication::translate("Dialog", "power 2", nullptr));
-        power3->setText(QCoreApplication::translate("Dialog", "power 3", nullptr));
-        power1->setText(QCoreApplication::translate("Dialog", "power 1", nullptr));
+        timeVal->setText(QCoreApplication::translate("Dialog", "0", nullptr));
     } // retranslateUi
 
 };

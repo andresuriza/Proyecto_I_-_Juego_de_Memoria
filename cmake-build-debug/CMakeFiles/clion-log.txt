@@ -1,4 +1,10 @@
-/var/lib/snapd/snap/clion/184/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/var/lib/snapd/snap/clion/184/bin/ninja/linux/ninja -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja "/home/andres/Documents/III SEMESTRE/Proyecto_I"
+/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/var/lib/snapd/snap/clion/189/bin/ninja/linux/ninja -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja -S "/home/andres/Documents/III SEMESTRE/Proyecto_I" -B "/home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug"
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/andres/Documents/III SEMESTRE/Proyecto_I/cmake-build-debug

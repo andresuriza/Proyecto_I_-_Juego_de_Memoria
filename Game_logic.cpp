@@ -2,10 +2,9 @@
 #include <QByteArray>
 #include <QPixmap>
 #include <QBuffer>
-#include <iostream>
 #include "mainwindow.h"
 #include <QApplication>
-#include <boost/asio.hpp>
+#include <utility>
 
 using namespace std;
 
@@ -17,35 +16,25 @@ private:
 
 public:
     void set_type(string val) {
-        type = val;
+        type = std::move(val);
     }
 
     void change_status()
     {
-        if (taken == false) {
-            this->taken = true;
-        } else if (taken == true) {
-            this->taken = false;
-        }
+        if (!taken) { this->taken = true; }
+
+        else if (taken) { this->taken = false; }
     }
 
     void set_image(QByteArray img) {
-        image = img;
+        image = std::move(img);
     }
 
-    string get_type()
-    {
-        return type;
-    }
+    string get_type() { return type; }
 
-    QByteArray get_image()
-    {
-        return image;
-    }
+    QByteArray get_image() { return image; }
 
-    bool get_taken() {
-        return taken;
-    }
+    bool get_taken() { return taken; }
 };
 
 class Game_logic {
@@ -57,12 +46,16 @@ private:
     QByteArray sun_byte;
     QByteArray bucket_byte;
     QByteArray skull_byte;
-
     int p1_points = 0;
     int p2_points = 0;
 
 public:
     Game_logic() {
+        ImageSaver();
+    }
+
+    void ImageSaver()
+    {
         QPixmap clover_img("../images/clover.png");
         QPixmap sun_img("../images/sun.png");
         QPixmap bucket_img("../images/bucket.png");
@@ -102,11 +95,12 @@ public:
            matrix[1][0] = *c4;
         */
 
-    void shuffler() { // Creates an array of pairs and arranges them in a random order
+    void shuffler()
+    { // Creates an array of pairs and arranges them in a random order
         string types_array[4] = {"sun", "bucket", "clover", "skull"};
+        string a;
         int i = 0;
         int k = 0;
-        string a;
         int sun = 0;
         int bucket = 0;
         int clover = 0;
@@ -173,24 +167,15 @@ public:
             col++;
         }
     }
+    
+    Card matrix_selector(int col, int row) { return matrix[col][row]; }
 
-    void matrix_reader() // Reads the card matrix
+    void matrix_changer(int col, int row) { matrix[col][row].change_status(); }
+
+    void CardArrayMaker()
     {
-        int row = 0;
-        int col = 0;
-
-        while (col < 3) {
-            while (row < 4) {
-                cout << matrix[col][row].get_type() + " ";
-                row++;
-            }
-            row = 0;
-            col++;
-            cout << endl;
-        }
-    }
-
-    Card matrix_selector(int col, int row) {
-        return matrix[col][row];
+        srand(time(nullptr));
+        shuffler();
+        matrix_maker();
     }
 };
