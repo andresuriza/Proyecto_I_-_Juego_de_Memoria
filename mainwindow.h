@@ -8,6 +8,10 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
+/**
+ *  Creates a menu UI window for the player to input their name
+ *
+ */
 class MainWindow : public QMainWindow
 {
     Q_OBJECT

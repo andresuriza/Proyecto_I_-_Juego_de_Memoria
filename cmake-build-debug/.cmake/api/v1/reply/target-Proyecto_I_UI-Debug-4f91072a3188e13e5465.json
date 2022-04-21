@@ -25,19 +25,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 58,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 66,
+				"line" : 70,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 68,
+				"line" : 72,
 				"parent" : 0
 			}
 		]
@@ -214,7 +214,8 @@
 				10,
 				12,
 				13,
-				14
+				14,
+				15
 			]
 		},
 		{
@@ -224,14 +225,14 @@
 				4,
 				7,
 				11,
-				15
+				16
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				16
+				17
 			]
 		}
 	],
@@ -320,6 +321,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/Proyecto_I_UI_autogen/include/ui_dialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/Proyecto_I_UI_autogen/include/ui_serverwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{

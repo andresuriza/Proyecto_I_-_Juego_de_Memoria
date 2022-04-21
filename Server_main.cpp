@@ -1,21 +1,17 @@
 #include <iostream>
-#include "Server.cpp"
-
+#include <QApplication>
+#include "serverwindow.h"
 using namespace std;
 
+int main(int argc, char *argv[]) {
+    try {
+        QApplication serverUI(argc, argv);
+        serverWindow server_window(nullptr);
+        server_window.show();
+        serverUI.exec();
 
-int main(int argc, char *argv[])
-{
-    try
-    {
-        boost::asio::io_context io_context;
-        tcp_server server(io_context);
-        io_context.run();
     }
-    catch (std::exception& e)
-    {
+    catch (std::exception &e) {
         std::cerr << e.what() << std::endl;
     }
-
-    return 0;
 }

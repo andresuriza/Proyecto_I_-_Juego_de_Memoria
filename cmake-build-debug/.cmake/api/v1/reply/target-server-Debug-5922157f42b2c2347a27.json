@@ -25,19 +25,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 61,
+				"line" : 65,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 67,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 69,
+				"line" : 73,
 				"parent" : 0
 			}
 		]
@@ -133,7 +133,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				4
 			]
 		}
 	],
@@ -196,7 +197,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				4
 			]
 		},
 		{
@@ -204,22 +206,25 @@
 			"sourceIndexes" : 
 			[
 				3,
-				4,
-				5
+				6,
+				7,
+				8,
+				9
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				6
+				5,
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				11
 			]
 		}
 	],
@@ -245,6 +250,22 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 1,
+			"path" : "serverwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "serverwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "serverwindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/server_autogen/include/ui_mainwindow.h",
@@ -260,6 +281,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/server_autogen/include/ui_dialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/server_autogen/include/ui_serverwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{

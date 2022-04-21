@@ -11,10 +11,10 @@ using boost::asio::ip::tcp;
 
 int main (int argc, char *argv[])
 {
-    QApplication app(argc, argv);
+    QApplication clientUI(argc, argv);
     MainWindow menu1(nullptr, "Player 1");
     MainWindow menu2(nullptr, "Player 2");
     menu1.show();
     menu2.show();
-    return app.exec();
+    return clientUI.exec();
 }

@@ -21,9 +21,6 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        mainwindow2.cpp
-        mainwindow2.h
-        mainwindow2.ui
         Game_logic.cpp
         dialog.cpp
         dialog.h
@@ -32,7 +29,11 @@ set(PROJECT_SOURCES
 
 set(SERVER_SOURCES
         Server.cpp
-        Server_main.cpp)
+        Server_main.cpp
+        serverwindow.h
+        serverwindow.cpp
+        serverwindow.ui
+        )
 
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

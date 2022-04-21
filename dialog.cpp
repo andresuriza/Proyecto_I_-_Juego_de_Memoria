@@ -6,13 +6,13 @@
 #include <QElapsedTimer>
 #include <QTimeEdit>
 #include <QTimer>
-#include <cstring>
+#include <QDebug>
 
 using boost::asio::ip::tcp;
 using namespace std;
 
 void Client_socket::send(const string msg)
-{
+{   // Sends a message to server and reads incoming one after condition is met
     boost::asio::io_context io_context;
     tcp::socket socket(io_context);
 
@@ -22,7 +22,7 @@ void Client_socket::send(const string msg)
     boost::asio::write(socket, boost::asio::buffer(msg + ","), error);
 
     if (!error) {
-        cout << "Client sent a message! " + msg << endl;
+        cout << "Client sent a message!" << endl;
         n_sent++;
     } else {
         cout << "send failed: " << error.message() << endl;
@@ -34,33 +34,35 @@ void Client_socket::send(const string msg)
         if (error && error != boost::asio::error::eof) {
             cout << "receive failed: " << error.message() << endl;
         } else {
-            const char *data = boost::asio::buffer_cast<const char*>(receive_buffer.data());
+            const char *data = boost::asio::buffer_cast<const char *>(receive_buffer.data());
+            string data_str = data;
             cout << data << endl;
             n_sent = 0;
         }
     }
 }
 
-/*
-boost::asio::streambuf receive_buffer;
-boost::asio::read(socket, receive_buffer, boost::asio::transfer_all(), error);
-if( error && error != boost::asio::error::eof ) {
-    cout << "receive failed: " << error.message() << endl;
+void Client_socket::set_matrix(int values[2][2]) // Copies matrix values to the positions one to remember cards chosen
+{
+    for (int i = 0; i < 2; i++) {
+        positions[i][0] = values[i][0];
+    }
+    for (int j = 0; j < 2; j++) {
+        positions[0][j] = values[0][j];
+    }
 }
-else {
-    const char* data = boost::asio::buffer_cast<const char*>(receive_buffer.data());
-    cout << data << endl;
+
+int Client_socket::get_n_sent() // Returns number of cards sent in current turn
+{
+    return n_sent;
 }
-*/
 
 Dialog::Dialog(QWidget *parent) : QDialog(parent), ui(new Ui::Dialog)
-{
+{  // Constructor method of Dialog
     ui->setupUi(this);
     this->setFixedSize(1181,906);
 
-    srand(time(nullptr));
-    g1.shuffler();
-    g1.matrix_maker();
+    g1.CardArrayMaker();
 
     QPixmap pix1;
     pix1.loadFromData(g1.matrix_selector(0,0).get_image(), "PNG");
@@ -122,8 +124,6 @@ Dialog::Dialog(QWidget *parent) : QDialog(parent), ui(new Ui::Dialog)
     ui->label_image12->setPixmap(pix12);
     ui->pushButton_12->setFlat(true);
 
-    g1.matrix_reader();
-
     QTimer* timer = new QTimer(this);
     timer->setInterval(1000);
     connect(timer, SIGNAL(timeout()), this, SLOT(timer_logic()));
@@ -133,127 +133,92 @@ Dialog::Dialog(QWidget *parent) : QDialog(parent), ui(new Ui::Dialog)
 void Dialog::timer_logic() // Adds a second and updates the label
 {
     seconds++;
-    ui->time_val->setNum(seconds);
+    ui->timeVal->setNum(seconds);
 }
 
-void Dialog::on_pushButton_clicked()
+void Dialog::SendCardToServer(int column, int row) // If a card isnt chosen, it chooses it and sends info to server
 {
-    if (g1.matrix_selector(0,0).get_taken() == false) {
-        c1.send(g1.matrix_selector(0,0).get_type());
-        g1.matrix_selector(0,0).change_status();
+    if (g1.matrix_selector(column, row).get_taken() == false) {
+        g1.matrix_changer(column, row);
+
+        if (c1.get_n_sent() == 0) {
+            selected_array[0][0] = column;
+            selected_array[0][1] = row;
+            c1.send(g1.matrix_selector(column, row).get_type());
+        } else {
+            selected_array[1][0] = column;
+            selected_array[1][1] = row;
+            c1.set_matrix(selected_array);
+            c1.send(g1.matrix_selector(column, row).get_type());
+            g1.matrix_selector(column, row).change_status();
+            points++;
+
+            if (points == 6) {
+                cout << "you won, it took you: " + to_string(seconds) + " seconds" << endl;
+            }
+            ui->pointsVal->setNum(points);
+        }
     }
 }
 
-void Dialog::on_pushButton_2_clicked()
+void Dialog::on_pushButton_clicked()  // Manages what pressing button 1 does
 {
-    Card chosen_c = g1.matrix_selector(0,1);
-    cout << chosen_c.get_taken() << endl;
-
-    if (chosen_c.get_taken() == false) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-        cout << chosen_c.get_taken() << endl;
-    }
+    SendCardToServer(0,0);
 }
 
-void Dialog::on_pushButton_3_clicked()
+void Dialog::on_pushButton_2_clicked() // Manages what pressing button 2 does
 {
-    Card chosen_c = g1.matrix_selector(0,2);
-
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+    SendCardToServer(0,1);
 }
 
-void Dialog::on_pushButton_4_clicked()
+void Dialog::on_pushButton_3_clicked()  // Manages what pressing button 3 does
 {
-    Card chosen_c = g1.matrix_selector(0,3);
-
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+    SendCardToServer(0,2);
 }
 
-void Dialog::on_pushButton_5_clicked()
+void Dialog::on_pushButton_4_clicked()  // Manages what pressing button 4 does
 {
-    Card chosen_c = g1.matrix_selector(1,0);
-
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+    SendCardToServer(0,3);
 }
 
-void Dialog::on_pushButton_6_clicked()
+void Dialog::on_pushButton_5_clicked()  // Manages what pressing button 5 does
 {
-    Card chosen_c = g1.matrix_selector(1,1);
-
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+    SendCardToServer(1,0);
 }
 
-void Dialog::on_pushButton_7_clicked()
+void Dialog::on_pushButton_6_clicked()  // Manages what pressing button 6 does
 {
-    Card chosen_c = g1.matrix_selector(1,2);
-
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+    SendCardToServer(1,1);
 }
 
-void Dialog::on_pushButton_8_clicked()
+void Dialog::on_pushButton_7_clicked()  // Manages what pressing button 7 does
 {
-    Card chosen_c = g1.matrix_selector(1,3);
-
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+    SendCardToServer(1,2);
 }
 
-void Dialog::on_pushButton_9_clicked()
+void Dialog::on_pushButton_8_clicked()  // Manages what pressing button 8 does
 {
-    Card chosen_c = g1.matrix_selector(2,0);
-
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+    SendCardToServer(1,3);
 }
 
-void Dialog::on_pushButton_10_clicked()
-{
-    Card chosen_c = g1.matrix_selector(2,1);
-
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+void Dialog::on_pushButton_9_clicked()  // Manages what pressing button 9 does
+{   // Manages what pressing button 1 does
+    SendCardToServer(2,0);
 }
 
-void Dialog::on_pushButton_11_clicked()
+void Dialog::on_pushButton_10_clicked()  // Manages what pressing button 10 does
 {
-    Card chosen_c = g1.matrix_selector(2,2);
-
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+    SendCardToServer(2,1);
 }
 
-void Dialog::on_pushButton_12_clicked()
+void Dialog::on_pushButton_11_clicked()  // Manages what pressing button 11 does
 {
-    Card chosen_c = g1.matrix_selector(2,3);
+    SendCardToServer(2,2);
+}
 
-    if (!chosen_c.get_taken()) {
-        c1.send(chosen_c.get_type());
-        chosen_c.change_status();
-    }
+void Dialog::on_pushButton_12_clicked()  // Manages what pressing button 12 does
+{
+    SendCardToServer(2,3);
 }
 
 Dialog::~Dialog()

@@ -8,6 +8,10 @@
 
 using namespace std;
 
+/**
+ * Creates a card with information about its type, image and if it has been taken or not
+ *
+ */
 class Card {
 private:
     QByteArray image;
@@ -15,28 +19,34 @@ private:
     bool taken = false;
 
 public:
-    void set_type(string val) {
+    void set_type(string val) // Sets the type of the card
+    {
         type = std::move(val);
     }
 
-    void change_status()
+    void change_status() // Changes the taken status boolean value
     {
         if (!taken) { this->taken = true; }
 
         else if (taken) { this->taken = false; }
     }
 
-    void set_image(QByteArray img) {
+    void set_image(QByteArray img) // Sets the image bytearray of the card
+    {
         image = std::move(img);
     }
 
-    string get_type() { return type; }
+    string get_type() { return type; } // Returns card type
 
-    QByteArray get_image() { return image; }
+    QByteArray get_image() { return image; } // Returns image byte array
 
-    bool get_taken() { return taken; }
+    bool get_taken() { return taken; } // Returns boolean status of taken
 };
 
+/**
+ * Contains info about the order of the cards in the game and handles their creation
+ *
+ */
 class Game_logic {
 private:
     Card matrix[3][4]; // Only 4 in memory
@@ -46,15 +56,28 @@ private:
     QByteArray sun_byte;
     QByteArray bucket_byte;
     QByteArray skull_byte;
-    int p1_points = 0;
-    int p2_points = 0;
 
 public:
-    Game_logic() {
+    Game_logic() // Constructor method
+    {
         ImageSaver();
+        Card* c1;
+        Card* c2;
+        Card* c3;
+        Card* c4;
+
+        c1 = new Card;
+        c2 = new Card;
+        c3 = new Card;
+        c4 = new Card;
+
+        matrix[0][0] = *c1;
+        matrix[0][1] = *c2;
+        matrix[0][2] = *c3;
+        matrix[1][0] = *c4;
     }
 
-    void ImageSaver()
+    void ImageSaver() // Loads PNG images and saves them as byte arrays
     {
         QPixmap clover_img("../images/clover.png");
         QPixmap sun_img("../images/sun.png");
@@ -78,22 +101,8 @@ public:
         skull_buffer.open(QIODevice::WriteOnly);
         skull_img.save(&skull_buffer, "PNG");
     }
-    /*
-           Card* c1;
-           Card* c2;
-           Card* c3;
-           Card* c4;
 
-           c1 = new Card;
-           c2 = new Card;
-           c3 = new Card;
-           c4 = new Card;
 
-           matrix[0][0] = *c1;
-           matrix[0][1] = *c2;
-           matrix[0][2] = *c3;
-           matrix[1][0] = *c4;
-        */
 
     void shuffler()
     { // Creates an array of pairs and arranges them in a random order
@@ -168,11 +177,12 @@ public:
         }
     }
     
-    Card matrix_selector(int col, int row) { return matrix[col][row]; }
+    Card matrix_selector(int col, int row) { return matrix[col][row]; } // Returns a selected card from matrix
 
-    void matrix_changer(int col, int row) { matrix[col][row].change_status(); }
+    void matrix_changer(int col, int row) { matrix[col][row].change_status(); } // Changes the boolean status of
+                                                                                // selected card
 
-    void CardArrayMaker()
+    void CardArrayMaker() // Makes a card array
     {
         srand(time(nullptr));
         shuffler();

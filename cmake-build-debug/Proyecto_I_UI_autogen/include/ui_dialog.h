@@ -50,6 +50,10 @@ public:
     QLabel *label_2;
     QLabel *label_3;
     QLabel *timeVal;
+    QLabel *pointsVal;
+    QPushButton *pushButton_13;
+    QPushButton *pushButton_14;
+    QPushButton *pushButton_15;
 
     void setupUi(QDialog *Dialog)
     {
@@ -166,6 +170,19 @@ public:
         QFont font1;
         font1.setPointSize(22);
         timeVal->setFont(font1);
+        pointsVal = new QLabel(frame);
+        pointsVal->setObjectName(QString::fromUtf8("pointsVal"));
+        pointsVal->setGeometry(QRect(100, 690, 41, 51));
+        pointsVal->setFont(font1);
+        pushButton_13 = new QPushButton(frame);
+        pushButton_13->setObjectName(QString::fromUtf8("pushButton_13"));
+        pushButton_13->setGeometry(QRect(70, 380, 80, 25));
+        pushButton_14 = new QPushButton(frame);
+        pushButton_14->setObjectName(QString::fromUtf8("pushButton_14"));
+        pushButton_14->setGeometry(QRect(70, 420, 80, 25));
+        pushButton_15 = new QPushButton(frame);
+        pushButton_15->setObjectName(QString::fromUtf8("pushButton_15"));
+        pushButton_15->setGeometry(QRect(70, 460, 80, 25));
 
         retranslateUi(Dialog);
 
@@ -203,6 +220,10 @@ public:
         label_2->setText(QCoreApplication::translate("Dialog", "Powerups:", nullptr));
         label_3->setText(QCoreApplication::translate("Dialog", "Points:", nullptr));
         timeVal->setText(QCoreApplication::translate("Dialog", "0", nullptr));
+        pointsVal->setText(QCoreApplication::translate("Dialog", "0", nullptr));
+        pushButton_13->setText(QCoreApplication::translate("Dialog", "Powerup 1", nullptr));
+        pushButton_14->setText(QCoreApplication::translate("Dialog", "Powerup 2", nullptr));
+        pushButton_15->setText(QCoreApplication::translate("Dialog", "Powerup 3", nullptr));
     } // retranslateUi
 
 };

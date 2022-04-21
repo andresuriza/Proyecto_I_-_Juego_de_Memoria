@@ -49,7 +49,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Proyecto_I_UI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Proyecto_I_UI-Debug-54ed694aebff3cd66fd1.json",
+					"jsonFile" : "target-Proyecto_I_UI-Debug-4f91072a3188e13e5465.json",
 					"name" : "Proyecto_I_UI",
 					"projectIndex" : 0
 				},
@@ -70,7 +70,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-server-Debug-6a0ec632e4a40316d8bb.json",
+					"jsonFile" : "target-server-Debug-5922157f42b2c2347a27.json",
 					"name" : "server",
 					"projectIndex" : 0
 				},
